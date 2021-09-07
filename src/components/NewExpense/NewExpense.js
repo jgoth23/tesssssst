@@ -5,7 +5,7 @@ import './NewExpense.css'
 const NewExpense = () => {
   return (
     <div className="">
-      <form></form>
+      
     </div>
   )
 };
