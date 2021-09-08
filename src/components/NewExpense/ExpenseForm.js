@@ -4,8 +4,8 @@ import './ExpenseForm.css'
 
 const ExpenseForm = () => {
 
-  const titleChangeHandle = () => {
-    console.log('changing title')
+  const titleChangeHandle = (event) => {
+    console.log(event.target.value);
   };
   return (
     <form>
